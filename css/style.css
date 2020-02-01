@@ -1,0 +1,131 @@
+body{
+    margin:0;
+    color:#40514E;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    margin: 0 auto 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.62rem;
+    margin-top: 50px;
+    width:50%;
+    color:#66BFBF;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color:#66BFBF;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color:#11999E;
+}
+
+.footer-link {
+    color:#11999E;
+    margin: 10px 10px 50px 10px;
+}
+
+#footer-copyright {
+    color:#EAF6F6;
+}
+
+
+.top_container {
+    background: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+}
+.middle-container {
+    margin-top: 100px;
+    margin-bottom:100px;
+}
+.bottom-container {
+    padding: 50px 0 50px 0;
+    background: #66BFBF;
+}
+
+.bottom-cloud {
+    position:absolute;
+    bottom:300px;
+    left:300px;
+}
+
+.top-cloud {
+    position: absolute;
+    right:300px;
+    top:50px;
+}
+
+#mypic {
+    border-radius:50%;
+    size: 50%;
+}
+
+.design {
+    width:300px;
+    height: 300px;
+}
+
+.algorithm {
+    width: 300px;
+    height:300px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    /*margin-top: 100px;
+    margin-bottom: 100px; */
+    text-align: left;
+    line-height: 2;
+}
+
+
+.skill-image1 {
+    width: 25%;
+    float: left;
+    margin-right:30px;
+}
+
+.skill-image2 {
+    width: 25%;
+    float: right;
+    margin-left:30px;
+}
+
+#profile-description {
+    color : #40514E;
+}
+
+hr {
+    height: 0px;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    border-color: #EAF6F6;
+    width: 5%;
+}
+
+.btn {
+    font-family: arial;
+    color: #FFFAFA !important;
+    font-size: 14px;
+    text-shadow: 1px 1px 0px #BDB0BF;
+    box-shadow: 1px 1px 1px #11999E;
+    padding: 10px 21px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 2px solid #5A9E8A;
+    background: #15C1C7;
+}
+
+a:hover {
+    color:#EAF6F6;
+}
